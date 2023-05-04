@@ -5,6 +5,7 @@
   text-decoration: none;
   -webkit-user-select: none;
   -ms-user-select: none;
+  -webkit-user-drag: none;
   user-select: none;
 }
 
