@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+body {
+  background: linear-gradient(to top, black, rgb(255, 255, 255));
+  height: 100vh;
+}
+
+header {
+  height: 60px;
+}
+
+.finhead1 {
+  margin: 10px;
+  cursor: pointer;
+  border: 2px solid rgb(99, 18, 18);
+  box-shadow: 0 0 8px rgb(99, 18, 18);
+}
+
+.finheadg {
+  margin-top: 10px;
+  border: 2px solid rgb(43, 90, 43);
+  box-shadow: 0 0 8px rgb(43, 90, 43);
+}
+
+.wikediv {
+  display: flex;
+  color: rgb(99, 18, 18);
+}
+
+.wike {
+  font-family: 'Darumadrop One', cursive;
+  font-size: 30px;
+  margin-top: 5px;
+  text-shadow: 1px 1px 3px rgb(99, 18, 18);
+}
+
+.sociais {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  gap: 50px;
+  margin-left: 620px;
+  margin-top: 8px;
+}
+
+.midias {
+  cursor: pointer;
+}
+
+.sonhos {
+  text-shadow: 1px 1px 3px rgb(43, 90, 43);
+  font-size: 30px;
+  margin-left: 600px;
+  margin-top: 5px;
+  font-family: 'Darumadrop One', cursive;
+  color: rgb(43, 90, 43);
+}
+
+.divname {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  margin-top: 10px;
+}
+
+.name {
+  font-family: 'Roboto', sans-serif;
+  color: rgb(255, 255, 255);
+  text-shadow: 3px 3px 3px rgb(0, 0, 0);
+  margin-top: 40px;
+}
+
+.japancolor {
+  color: rgb(255, 255, 255);
+}
+
+.headerend {
+  display: flex;
+  gap: 10px
+}
+
+.animefin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 150px;
+  margin-top: 50px;
+}
+
+.imgtokito {
+  border: 5px solid rgb(163, 214, 208);
+}
+
+.imgtokito,
+.imgsae,
+.imgmegumi {
+  box-shadow: 0 0 8px black;
+  margin-top: 22px;
+  transition: transform .2s;
+  cursor: pointer;
+}
+
+.imgtokito:hover {
+  transform: scale(1.1);
+}
+
+.imgsae {
+  border: 5px solid rgb(166, 105, 117);
+}
+
+.imgsae:hover {
+  transform: scale(1.1);
+}
+
+.imgmegumi {
+  border: 5px solid rgb(30, 39, 59);
+}
+
+.imgmegumi:hover {
+  transform: scale(1.1);
+}
+
+.animep {
+  font-family: 'Darumadrop One', cursive;
+}
+
+.teste {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.h2name {
+  font-family: 'Noto Sans JP', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tkt {
+  text-shadow: 0 0 10px rgb(163, 214, 208);
+}
+
+.is {
+  text-shadow: 0 0 10px rgb(166, 105, 117);
+}
+
+.mgi {
+  text-shadow: 0 0 10px rgb(30, 39, 59);
+}
+
+.japa {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.japa {
+  margin-left: 15px;
+  text-shadow: 1px 1px 5px black;
+}
+
+.semfim {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+  font-size: 20px;
+  font-family: 'Noto Sans JP', sans-serif;
+  text-shadow: 1px 1px 3px rgb(255, 255, 255);
+}

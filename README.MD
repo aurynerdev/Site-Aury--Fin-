@@ -1,0 +1,1 @@
+# Site feito para um amigo meu (Gabriel) utilizando HTML, CSS e JS
